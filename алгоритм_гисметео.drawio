@@ -1,0 +1,229 @@
+<mxfile host="65bd71144e" pages="2">
+    <diagram id="rgTA95xnsNxqBiJL5k0y" name="english">
+        <mxGraphModel dx="2333" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="FlvujS7oTZtNn2_cBqH1-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="10" width="1070" height="1160" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=16;" parent="1" source="6" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1140" y="70"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="start a python file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Times New Roman;" parent="28" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2833" y="3" relative="1" as="geometry">
+                        <mxPoint x="2" y="-11" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="1010" y="40" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Database" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="open-gismeteo" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Times New Roman;" parent="1" vertex="1">
+                    <mxGeometry x="1360" y="190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="python file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Times New Roman;" parent="1" vertex="1">
+                    <mxGeometry x="1080" y="190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="855" y="250" width="10" height="800" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1135" y="250" width="10" height="800" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1415" y="250" width="10" height="800" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=classic;html=1;fontFamily=Times New Roman;fontSize=16;entryX=0.5;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.173;exitY=0.051;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="11" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1215" y="291" as="sourcePoint"/>
+                        <mxPoint x="1415" y="291" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="create request to open-gismeteo&amp;nbsp;&lt;br&gt;via HTTP - request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Times New Roman;" parent="15" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3533" y="2" relative="1" as="geometry">
+                        <mxPoint x="36" y="30" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="" style="endArrow=classic;html=1;fontFamily=Times New Roman;fontSize=16;entryX=0.915;entryY=0.162;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.105;exitY=0.163;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="1" source="12" target="11" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1410" y="380" as="sourcePoint"/>
+                        <mxPoint x="1300" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="send a dataset for 1 day with &lt;br&gt;temperature, humidity,&lt;br&gt;&amp;nbsp;pressure, wind" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Times New Roman;" parent="18" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0935" relative="1" as="geometry">
+                        <mxPoint x="-13" y="39" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="" style="endArrow=classic;html=1;fontFamily=Times New Roman;fontSize=16;exitX=0.058;exitY=0.287;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.201;entryY=0.287;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="11" target="10" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="950" y="480" as="sourcePoint"/>
+                        <mxPoint x="890" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="create connect to DataBase &lt;br&gt;via library &quot;lib_version1.py&quot;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Times New Roman;" parent="20" vertex="1" connectable="0">
+                    <mxGeometry x="0.4632" y="1" relative="1" as="geometry">
+                        <mxPoint x="51" y="29" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="" style="endArrow=classic;html=1;fontFamily=Times New Roman;fontSize=16;exitX=1.118;exitY=0.405;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.382;entryY=0.406;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="10" target="11" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="980" y="620" as="sourcePoint"/>
+                        <mxPoint x="1030" y="570" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="output link pgconnect&lt;br&gt;&amp;nbsp;and cursor of pgconnect" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Times New Roman;" parent="22" vertex="1" connectable="0">
+                    <mxGeometry x="0.2679" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-30" y="24" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=classic;html=1;fontFamily=Times New Roman;fontSize=16;exitX=-0.299;exitY=0.539;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.118;entryY=0.539;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="11" target="10" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1030" y="730" as="sourcePoint"/>
+                        <mxPoint x="1080" y="680" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="create request for insert&lt;br&gt;&amp;nbsp;dataset from open-gismeteo&lt;br&gt;via library &quot;lib_version1.py&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Times New Roman;" parent="24" vertex="1" connectable="0">
+                    <mxGeometry x="0.2853" relative="1" as="geometry">
+                        <mxPoint x="32" y="38" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="" style="endArrow=classic;html=1;fontFamily=Times New Roman;fontSize=16;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="10" target="11" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="930" y="850" as="sourcePoint"/>
+                        <mxPoint x="980" y="800" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="send a message with&lt;br&gt;&amp;nbsp;status of request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Times New Roman;" parent="26" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1024" y="1" relative="1" as="geometry">
+                        <mxPoint y="29" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="_MUQTQaUkBc2F-yay-vA" name="русский">
+        <mxGraphModel dx="1402" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="wKgOp-SsHZ3LevrfOMjl-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+                    <mxGeometry y="570" width="1180" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="B4tq6Hv2jsP9f1tTRiAh-5" value="База данных &quot;mimesis&quot; PostgreSQL 16.&lt;br&gt;mimesis.telemetryweather" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="45" y="200" width="190" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="B4tq6Hv2jsP9f1tTRiAh-6" value="&amp;nbsp;Яндекс.Погода API&lt;br&gt;https://yandex.ru/pogoda/b2b/console/api-page" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Times New Roman;" parent="1" vertex="1">
+                    <mxGeometry x="920" y="200" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="B4tq6Hv2jsP9f1tTRiAh-7" value="обработчик данных на языке python. &lt;br&gt;lisuin@192.168.60.173:&amp;nbsp;&lt;br&gt;/home/lisuin/data_yandex/main.py" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Times New Roman;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="200" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="B4tq6Hv2jsP9f1tTRiAh-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="135" y="300" width="10" height="800" as="geometry"/>
+                </mxCell>
+                <mxCell id="B4tq6Hv2jsP9f1tTRiAh-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="300" width="10" height="800" as="geometry"/>
+                </mxCell>
+                <mxCell id="B4tq6Hv2jsP9f1tTRiAh-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1060" y="300" width="10" height="800" as="geometry"/>
+                </mxCell>
+                <mxCell id="B4tq6Hv2jsP9f1tTRiAh-13" value="" style="endArrow=classic;html=1;fontFamily=Times New Roman;fontSize=16;entryX=0.915;entryY=0.162;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.105;exitY=0.163;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1581.9" y="430.80000000000007" as="sourcePoint"/>
+                        <mxPoint x="1310" y="429.9999999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="B4tq6Hv2jsP9f1tTRiAh-14" value="Пакет гидрометеорологических&lt;br&gt;&amp;nbsp;данных&lt;br&gt;Dataset: &amp;lt;json&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Times New Roman;" parent="B4tq6Hv2jsP9f1tTRiAh-13" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0935" relative="1" as="geometry">
+                        <mxPoint x="-13" y="39" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="B4tq6Hv2jsP9f1tTRiAh-15" value="" style="endArrow=classic;html=1;fontFamily=Times New Roman;fontSize=16;exitX=-0.383;exitY=0.163;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.201;entryY=0.287;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="640.0000000000001" y="440.39999999999986" as="sourcePoint"/>
+                        <mxPoint x="148.83000000000024" y="439.9999999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="B4tq6Hv2jsP9f1tTRiAh-16" value="создание подключения &lt;br&gt;к базе данных с помощью &lt;br&gt;библиотеки &quot;librequest_manager.py&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Times New Roman;" parent="B4tq6Hv2jsP9f1tTRiAh-15" vertex="1" connectable="0">
+                    <mxGeometry x="0.4632" y="1" relative="1" as="geometry">
+                        <mxPoint x="189" y="69" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="wKgOp-SsHZ3LevrfOMjl-2" value="pg_connect" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Times New Roman;" vertex="1" connectable="0" parent="B4tq6Hv2jsP9f1tTRiAh-15">
+                    <mxGeometry x="0.4437" relative="1" as="geometry">
+                        <mxPoint x="-39" y="10" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="B4tq6Hv2jsP9f1tTRiAh-17" value="" style="endArrow=classic;html=1;fontFamily=Times New Roman;fontSize=16;exitX=1.118;exitY=0.405;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.382;entryY=0.406;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="146.17999999999984" y="724" as="sourcePoint"/>
+                        <mxPoint x="411.17999999999984" y="724.8" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="S2LzBdBWhL-RhrBq4iMP-3" value="подключение и курсор для &lt;br&gt;выполнения&amp;nbsp;операций в&lt;br&gt;&amp;nbsp;базе данных&amp;nbsp;&lt;br&gt;&amp;lt;pg_connect, link&amp;gt;, &amp;lt;pg_cursor, link&amp;gt;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;fontSize=16;" parent="B4tq6Hv2jsP9f1tTRiAh-17" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3372" y="1" relative="1" as="geometry">
+                        <mxPoint x="45" y="47" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="B4tq6Hv2jsP9f1tTRiAh-19" value="" style="endArrow=classic;html=1;fontFamily=Times New Roman;fontSize=16;exitX=-0.299;exitY=0.539;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.118;entryY=0.539;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="412.0100000000002" y="848.2" as="sourcePoint"/>
+                        <mxPoint x="146.17999999999984" y="848.2" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="B4tq6Hv2jsP9f1tTRiAh-20" value="создание запроса на&lt;br&gt;&amp;nbsp;внесение данных&lt;br&gt;&amp;lt;SQL request&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Times New Roman;" parent="B4tq6Hv2jsP9f1tTRiAh-19" vertex="1" connectable="0">
+                    <mxGeometry x="0.2853" relative="1" as="geometry">
+                        <mxPoint x="32" y="38" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="B4tq6Hv2jsP9f1tTRiAh-21" value="" style="endArrow=classic;html=1;fontFamily=Times New Roman;fontSize=16;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;dashed=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="145" y="1000" as="sourcePoint"/>
+                        <mxPoint x="415" y="999.9999999999991" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="B4tq6Hv2jsP9f1tTRiAh-22" value="вывод сообщения о&amp;nbsp;&lt;br&gt;статусе выполнения запроса&lt;br&gt;&amp;lt;string&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Times New Roman;" parent="B4tq6Hv2jsP9f1tTRiAh-21" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1024" y="1" relative="1" as="geometry">
+                        <mxPoint x="3" y="36" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="1XRB92tysf6UNu9FzDNS-1" value="частота опроса: ежедневно в 00:00&lt;br style=&quot;font-size: 14px;&quot;&gt;Запрашиваемые данные: &lt;br style=&quot;font-size: 14px;&quot;&gt;температура &amp;lt;float &amp;gt; - avgTemperature,&lt;br style=&quot;font-size: 14px;&quot;&gt;влажность &amp;lt;float&amp;gt; - humidity,&lt;br style=&quot;font-size: 14px;&quot;&gt;давление &amp;lt;float &amp;gt; - pressure,&lt;br style=&quot;font-size: 14px;&quot;&gt;ветер &amp;lt;(string, string )&amp;gt; - (windSpeed, windDirection),&lt;br style=&quot;font-size: 14px;&quot;&gt;осадки &amp;lt;(string, string)&amp;gt; - (precType, precStrength),&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=15;verticalAlign=top;fontSize=14;fontFamily=Times New Roman;" parent="1" vertex="1">
+                    <mxGeometry x="-550" y="70" width="410" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="1XRB92tysf6UNu9FzDNS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.011;entryY=0.048;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="640.1100000000001" y="359.4" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="440" y="106"/>
+                            <mxPoint x="440" y="359"/>
+                        </Array>
+                        <mxPoint x="319.99997278909086" y="106.02857142857135" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="1XRB92tysf6UNu9FzDNS-2" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="90" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="wKgOp-SsHZ3LevrfOMjl-9" value="[Соединение с базой данных существует]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=22;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="620" width="425" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="wKgOp-SsHZ3LevrfOMjl-10" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry y="570" width="97.5" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="wKgOp-SsHZ3LevrfOMjl-7" value="" style="shape=card;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;rotation=90;" vertex="1" parent="wKgOp-SsHZ3LevrfOMjl-10">
+                    <mxGeometry x="20" y="-20" width="57.5" height="97.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="wKgOp-SsHZ3LevrfOMjl-8" value="ALT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="wKgOp-SsHZ3LevrfOMjl-10">
+                    <mxGeometry x="10" y="13.75" width="60" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,1 @@
+{"data":{"weatherByPoint":{"now":{"temperature":26,"humidity":84,"pressure":753,"precType":"NO_TYPE","precStrength":"ZERO","windSpeed":4.6,"windDirection":"SOUTH"}}}}
